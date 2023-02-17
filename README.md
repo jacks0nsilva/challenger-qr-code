@@ -4,3 +4,5 @@
  This project is a simple challenge of the website <a href="https://www.frontendmentor.io">Frontend Mentor</a>. Frontend Mentor proposes cool challenges to test your Html, CSS and JavaScript skills.
 
  <a href="https://jacks0nsilva.github.io/challenger-qr-code/">Clique aqui para acessar o projeto</a>
+
+<a href="https://jacks0nsilva.github.io/challenger-qr-code/">Click here to access my project</a>
