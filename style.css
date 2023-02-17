@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+}
+
+:root{
+    --branco: hsl(0, 0%, 100%);
+    --azul-claro: hsl(212, 45%, 89%);
+    --cinza: hsl(220, 15%, 55%);
+    --azul-escuro: hsl(218, 44%, 22%);
+    --fonte-padrao: 'Outfit', sans-serif;;
+}
+
+body{
+    background-color:var(--azul-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    max-width: 350px;
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 375px){
+
+    .container{
+        max-width: 250px;
+        margin: 20px 0px;
+    }
+
+    footer{
+        margin: 20px;
+    }
+}
+
+.image > img{
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.text-one{
+    margin-bottom: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.text-one h1{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--azul-escuro);
+}
+
+.text-two{
+    margin: 20px 30px;
+}
+
+.text-two{
+    font-size: 16px;
+    color: var(--cinza);
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer p  a{
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-weight: 600;
+}
+
+footer p a:hover{
+    color: var(--cinza);
+}
